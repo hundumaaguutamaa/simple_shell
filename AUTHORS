@@ -1,6 +1,6 @@
-#!/bin/sh
+# Contributors to this project 
+# This file lists all contributors to the repository.
 
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
+Tadesse Kebede <taddeekb@gmail.com>
+Hunduma Tesfaye <hundumaa.guutamaa@gmail.com>
+
